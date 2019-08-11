@@ -6,6 +6,15 @@ Based on [the incredible work found on Dribbble](https://dribbble.com/shots/6840
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Project Progress
+
+[ x ] Initiate Create React App
+[ x ] Add Storybook
+[ ] Define atomic design system with React components in Storybook
+[ ] Build comp from design system components
+[ ] Add animations
+[ ] Deploy site to Netlify or Zeit
+
 ## Available Scripts
 
 In the project directory, you can run:
