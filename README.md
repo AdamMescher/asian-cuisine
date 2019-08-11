@@ -1,3 +1,9 @@
+# asian-cuisine
+
+Attempt to create an atomic design system with React and Storybook.
+
+Based on [the incredible work found on Dribbble](https://dribbble.com/shots/6840107-Landing-page-Asian-Cuisine) of [](https://outcrowd.io).
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
