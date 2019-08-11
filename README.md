@@ -6,6 +6,8 @@ Based on [the incredible work found on Dribbble](https://dribbble.com/shots/6840
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+### Pages
+
 ## Available Scripts
 
 In the project directory, you can run:
