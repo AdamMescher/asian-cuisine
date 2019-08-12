@@ -1,9 +1,9 @@
 import React from 'react';
 import StyledButton from './styled';
 
-const Button = () => {
+const Button = ({ text, style }) => {
     return(
-        <Button>hello</Button>
+        <StyledButton style={style}><span>{text}</span></StyledButton>
     )
 }
 
