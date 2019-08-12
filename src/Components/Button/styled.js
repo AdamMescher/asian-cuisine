@@ -17,8 +17,7 @@ const StyledButton = styled.button`
     }
     span {
         display: flex;
-        justify-content: center;
-        align-items: center;
+        text-align: right;
     }
 `;
 
