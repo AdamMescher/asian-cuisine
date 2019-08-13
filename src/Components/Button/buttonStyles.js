@@ -1,7 +1,7 @@
 export const defaultButtonStyle = {
     cursor: '',
     height: '2rem',
-    fontSize: '',
+    fontSize: '1em',
     fontFamily: '',
     color: '',
     bgColor: '',
