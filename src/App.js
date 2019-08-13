@@ -7,16 +7,7 @@ function App() {
     <main className="App">
       <section>
         <h1>HELLO</h1>
-        <Button text={'button label goes here'} style={{
-          fontSize: '1.2em',
-          border: 'none',
-          color: 'white',
-          bgColor: 'blue',
-          hoverColor: 'red',
-          hoverBgColor: 'white',
-          hoverBorder: '2px solid red',
-          height: '2.5rem'
-        }}/>
+        <Button text={'button label goes here'}/>
       </section>
     </main>
   );

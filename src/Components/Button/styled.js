@@ -1,24 +1,27 @@
-import styled from 'styled-components';
+import styled, {css} from 'styled-components';
+const flexCenterCenter = css`display: flex; justify-content: center; align-items: center`;
 
 const StyledButton = styled.button`
-    height: ${props => props.style.height};
-    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
-    border: 0px solid black;
-    font-size: ${props => props.style.fontSize};
-    color: black;
-    background-color: ${props => props.style.bgColor};
-    box-sizing: border-box;
-    :hover {
-        cursor: pointer;
-        background-color: ${props => props.style.hoverBgColor} !important;
-        color: ${props => props.style.hoverColor} !important;
-        border: ${props => props.style.hoverBorder} !important;
-        padding: calc(0.5rem - 1px) calc(1.5rem - 1px) calc(0.5rem - 1px) calc(1.5rem - 1px);
-    }
+    height: ${props => props.style.height || ''};
+    padding: ${props => props.style.padding || ''};
+    border: ${props => props.style.border || ''};
+    font-size: ${props => props.style.fontSize || ''};
+    font-family: ${props => props.style.fontFamily || ''};
+    color: ${props => props.style.color || ''};
+    background-color: ${props => props.style.bgColor || ''};
+    box-sizing: ${props => props.style.boxSizing || ''};
     span {
-        display: flex;
-        text-align: right;
+        ${flexCenterCenter}
     }
+    :hover {
+        cursor: ${props => props.style.cursor || ''};
+        padding: ${props => props.style.hoverPadding || ''};
+        background-color: ${props => props.style.hoverBgColor || ''} !important;
+        color: ${props => props.style.hoverColor || ''} !important;
+        border: ${props => props.style.hoverBorder || ''} !important;
+    }
+    :active {}
+    :disabled {}
 `;
 
 export default StyledButton;
