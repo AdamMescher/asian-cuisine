@@ -7,10 +7,10 @@ const SVG = ({
     style,
     shapes
 }) => (
-        <StyledSVG xmlns={xmlns} viewBox={viewBox}>
-            <style>{style}</style>
-            {shapes}
-        </StyledSVG>
+    <StyledSVG xmlns={xmlns} viewBox={viewBox}>
+        <style>{style}</style>
+        {shapes}
+    </StyledSVG>
 )
 
 export default SVG;
