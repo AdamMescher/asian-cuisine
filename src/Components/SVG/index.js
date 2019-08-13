@@ -4,8 +4,6 @@ import StyledSVG from './styled';
 const SVG = ({
     xmlns,
     viewBox,
-    height,
-    width,
     style,
     shapes
 }) => (
