@@ -20,8 +20,20 @@ const StyledButton = styled.button`
         color: ${props => props.style.hoverColor || ''} !important;
         border: ${props => props.style.hoverBorder || ''} !important;
     }
-    :active {}
-    :disabled {}
+    :active {
+        cursor: ${props => props.style.cursor || ''};
+        padding: ${props => props.style.activePadding || ''};
+        background-color: ${props => props.style.activeBgColor || ''} !important;
+        color: ${props => props.style.activeColor || ''} !important;
+        border: ${props => props.style.activeBorder || ''} !important;
+    }
+    :disabled {
+        cursor: ${props => props.style.cursor || ''};
+        padding: ${props => props.style.disabledPadding || ''};
+        background-color: ${props => props.style.disabledBgColor || ''} !important;
+        color: ${props => props.style.disabledColor || ''} !important;
+        border: ${props => props.style.disabledBorder || ''} !important;
+    }
 `;
 
 export default StyledButton;
