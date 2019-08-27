@@ -8,12 +8,17 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Project Progress
 
+DONE
 - [x] Initiate Create React App
 - [x] Add Storybook
+
+IN PROGRESS
 - [ ] Define atomic design system with React components in Storybook
 - [ ] Build comp from design system components
-- [ ] Add animations
+
+TODO
 - [ ] Deploy site to Netlify or Zeit
+- [ ] Add animations
 
 ## Available Scripts
 
