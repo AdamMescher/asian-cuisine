@@ -1,10 +1,10 @@
 import React from 'react';
-import './App.css';
-import Button from './Components/Button';
 import {ThemeProvider } from 'styled-components';
+import CombinationMark from '../CombinationMark/styled';
+
 const theme = {
   fontStack: {
-    sansSerifFontFamily: `'Lecend Deca', sans-serif`,
+    sansSerifFontFamily: `'Lexend Deca', sans-serif'`,
     lineHeight: '1.45',
     bodyFontSize: '16px',
     h1FontSize: '3.052em',
@@ -16,19 +16,26 @@ const theme = {
   },
   colors: {
     primary: {
-      one: '',
+      one: '#58a701',
       two: '',
       three: ''
     },
     secondary: {
-      one: '',
-      two: '',
-      three: ''
+      one: '#623453',
+      two: '#5270e8',
     },
     tertiary: {
-      one: '',
-      two: '',
+      one: '#ffc511',
+      two: '#ffde7f',
       three: ''
+    },
+    quaternary: {
+      one: '#fe7749'
+    },
+    quinary: {
+      one: '#02c4a1',
+      two: '#eeeffd',
+      three: '#c7d4dc',
     },
     darkNeutral: {
       one: '',
@@ -39,11 +46,11 @@ const theme = {
       six: ''
     },
     lightNeutral: {
-      one: '',
-      two: ''
+      one: '#fff3d2',
+      two: '#fde7ad',
+      three: '#ecf9ff',
+      four: '#f7f9fb'
     }
-
-
   }
 };
 
@@ -52,8 +59,7 @@ function App() {
     <ThemeProvider theme={theme}>
       <main className="App">
         <section>
-          <h1>HELLO</h1>
-          <Button text={'button label goes here'}/>
+          <h1>IS THIS THING ON</h1>
         </section>
       </main>
     </ThemeProvider>
