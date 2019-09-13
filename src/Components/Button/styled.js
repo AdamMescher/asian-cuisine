@@ -2,8 +2,9 @@ import styled, {css} from 'styled-components';
 const flexCenterCenter = css`display: flex; justify-content: center; align-items: center`;
 
 const StyledButton = styled.button`
+    ${flexCenterCenter}
+    cursor: pointer;
     height: ${props => props.style.height || ''};
-    padding: ${props => props.style.padding || ''};
     border: ${props => props.style.border || ''};
     font-size: ${props => props.style.fontSize || ''};
     font-family: ${props => props.style.fontFamily || ''};
@@ -12,6 +13,7 @@ const StyledButton = styled.button`
     box-sizing: ${props => props.style.boxSizing || ''};
     span {
         ${flexCenterCenter}
+        padding: ${props => props.style.padding || ''};
     }
     :hover {
         cursor: ${props => props.style.cursor || ''};
@@ -29,7 +31,6 @@ const StyledButton = styled.button`
     }
     :disabled {
         cursor: ${props => props.style.cursor || ''};
-        padding: ${props => props.style.disabledPadding || ''};
         background-color: ${props => props.style.disabledBgColor || ''} !important;
         color: ${props => props.style.disabledColor || ''} !important;
         border: ${props => props.style.disabledBorder || ''} !important;
