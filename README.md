@@ -2,24 +2,29 @@
 
 Attempt to create an atomic design system with React and Storybook.
 
-Based on [the incredible work found on Dribbble](https://dribbble.com/shots/6840107-Landing-page-Asian-Cuisine) of [](https://outcrowd.io).
+Based on [the incredible work found on Dribbble](https://dribbble.com/shots/6840107-Landing-page-Asian-Cuisine) of [Outcrowd](https://outcrowd.io).
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Project Progress
 
+DONE
 - [x] Initiate Create React App
 - [x] Add Storybook
-- [ ] IN PROGRESS - Define atomic design system with React components in Storybook
+
+IN PROGRESS
+- [ ] Define atomic design system with React components in Storybook
 - [ ] Build comp from design system components
-- [ ] Add animations
+
+TODO
 - [ ] Deploy site to Netlify or Zeit
+- [ ] Add animations
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-`npm start`
+### `npm start`
 
 Runs the app in the development mode.
 
@@ -29,7 +34,7 @@ The page will reload if you make edits.
 
 You will also see any lint errors in the console.
 
-`npm test`
+### `npm test`
 
 Launches the test runner in the interactive watch mode.<br>
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
