@@ -17,7 +17,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 <details>
    <summary>Clone Repo and NPM Install Example</summary>
    <a href="https://asciinema.org/a/268503")](https://asciinema.org/a/268503>
-      <img src="https://asciinema.org/a/268503.svg"/>
+      <img src="https://asciinema.org/a/268503.svg" height="200px"/>
    </a>
 </details>
 
