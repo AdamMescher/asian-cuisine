@@ -8,38 +8,29 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Getting Started
 
-1. <strong>Clone repo</strong>
+1. Clone repo and navigate to the project's root directory
 <details>
-   <summary>2. <strong>Run `$ npm install` from project root directory</strong></summary>
+   <summary>2. Run "$ npm install" to install all necessary npm dependencies</summary>
    <a href="https://asciinema.org/a/268503">
       <img src="https://asciinema.org/a/268503.svg" height="300px"/>
    </a>
 </details>
-
-3. Run `$ npm start` to start the development server
-4. Run `$ npm test` or `$ npm t` to run the test suite
-5. Run `$ npm run storybook` to start the UI dev environment
-
-
-
 <details>
-   <summary>`npm start example`</summary>
-   <a href="">
-      <img src="" />
+   <summary>3. Run $ npm start` to start the development server</summary>
+   <a href="https://asciinema.org/a/268503">
+      <img src="" height="300px"/>
    </a>
 </details>
-
 <details>
-   <summary>`npm test` example</summary>
-   <a href="">
-      <img src="" />
+   <summary>4. Run "$ npm test" or "$ npm t" to run the test suite</summary>
+   <a href="https://asciinema.org/a/268503">
+      <img src="" height="300px"/>
    </a>
 </details>
-
 <details>
-   <summary>`npm run storybook` example</summary>
+   <summary>5. Run `$ npm run storybook` to start the UI dev environment</summary>
    <a href="">
-      <img src="" />
+      <img src="" height="300px"/>
    </a>
 </details>
 
