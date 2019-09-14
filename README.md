@@ -8,13 +8,14 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Getting Started
 
+1. <strong>Clone repo<strong>
 <details>
-   <summary>1. Clone Repo and NPM Install Example</summary>
+   <summary>2. <strong>Run `$ npm install` from project root directory<strong></summary>
    <a href="https://asciinema.org/a/268503")>
       <img src="https://asciinema.org/a/268503.svg" height="300px"/>
    </a>
 </details>
-2. Run `$ npm install` from project root directory
+
 3. Run `$ npm start` to start the development server
 4. Run `$ npm test` or `$ npm t` to run the test suite
 5. Run `$ npm run storybook` to start the UI dev environment
