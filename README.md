@@ -16,7 +16,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
    </a>
 </details>
 <details>
-   <summary>3. Run $ npm start` to start the development server</summary>
+   <summary>3. Run "$ npm start" to start the development server</summary>
    <a href="https://asciinema.org/a/268503">
       <img src="" height="300px"/>
    </a>
@@ -28,7 +28,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
    </a>
 </details>
 <details>
-   <summary>5. Run `$ npm run storybook` to start the UI dev environment</summary>
+   <summary>5. Run "$ npm run storybook" to start the UI dev environment</summary>
    <a href="">
       <img src="" height="300px"/>
    </a>
