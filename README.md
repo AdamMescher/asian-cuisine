@@ -16,7 +16,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 <details>
    <summary>CLICK ME</summary>
    <a href="https://asciinema.org/a/268503.svg")](https://asciinema.org/a/268503>
-      link text goes here
       <img src="https://asciinema.org/a/268503.svg"/>
    </a>
 </details>
