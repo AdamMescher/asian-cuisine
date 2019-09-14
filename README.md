@@ -9,36 +9,37 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Getting Started
 
 1. Clone repo from GitHub
+<details>
+   <summary>Clone Repo and NPM Install Example</summary>
+   <a href="https://asciinema.org/a/268503")>
+      <img src="https://asciinema.org/a/268503.svg" height="300px"/>
+   </a>
+</details>
 2. Run `$ npm install` from project root directory
 3. Run `$ npm start` to start the development server
 4. Run `$ npm test` or `$ npm t` to run the test suite
 5. Run `$ npm run storybook` to start the UI dev environment
 
-<details>
-   <summary>Clone Repo and NPM Install Example</summary>
-   <a href="https://asciinema.org/a/268503")](https://asciinema.org/a/268503>
-      <img src="https://asciinema.org/a/268503.svg" height="200px"/>
-   </a>
-</details>
+
 
 <details>
    <summary>`npm start example`</summary>
-   <a href="https://asciinema.org/a/268503")](https://asciinema.org/a/268503>
-      <img src="https://asciinema.org/a/268503.svg"/>
+   <a href="">
+      <img src="" />
    </a>
 </details>
 
 <details>
    <summary>`npm test` example</summary>
-   <a href="https://asciinema.org/a/268503")](https://asciinema.org/a/268503>
-      <img src="https://asciinema.org/a/268503.svg"/>
+   <a href="">
+      <img src="" />
    </a>
 </details>
 
 <details>
    <summary>`npm run storybook` example</summary>
-   <a href="https://asciinema.org/a/268503")](https://asciinema.org/a/268503>
-      <img src="https://asciinema.org/a/268503.svg"/>
+   <a href="">
+      <img src="" />
    </a>
 </details>
 
