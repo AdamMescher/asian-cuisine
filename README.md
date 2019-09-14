@@ -10,7 +10,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 1. Clone repo and navigate to the project's root directory
 <details>
-   <summary>2. Run $<em>npm install</em> to install all necessary npm dependencies</summary>
+   <summary>2. Run $ <em>npm install</em> to install all necessary npm dependencies</summary>
    <a href="https://asciinema.org/a/268503">
       <img src="https://asciinema.org/a/268503.svg" height="300px"/>
    </a>
