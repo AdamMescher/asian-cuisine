@@ -15,8 +15,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 5. Run `$ npm run storybook` to start the UI dev environment
 <details>
    <summary>CLICK ME</summary>
-[![asciicast](https://asciinema.org/a/268503.svg)](https://asciinema.org/a/268503)
+   <a href=""https://asciinema.org/a/268503.svg)](https://asciinema.org/a/268503>link text</a>
 </details>
+
 ## Available Scripts
 
 * `$ npm start`
