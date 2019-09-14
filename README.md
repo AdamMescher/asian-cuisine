@@ -8,9 +8,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Getting Started
 
-1. Clone repo from GitHub
 <details>
-   <summary>Clone Repo and NPM Install Example</summary>
+   <summary>1. Clone Repo and NPM Install Example</summary>
    <a href="https://asciinema.org/a/268503")>
       <img src="https://asciinema.org/a/268503.svg" height="300px"/>
    </a>
