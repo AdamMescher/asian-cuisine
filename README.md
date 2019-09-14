@@ -14,6 +14,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 4. Run `$ npm test` or `$ npm t` to run the test suite
 5. Run `$ npm run storybook` to start the UI dev environment
 
+[![asciicast](https://asciinema.org/a/268503.svg)](https://asciinema.org/a/268503)
+
 ## Available Scripts
 
 * `$ npm start`
