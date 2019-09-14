@@ -9,13 +9,35 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Getting Started
 
 1. Clone repo from GitHub
-2. Run `$ npm intsall` from project root directory
+2. Run `$ npm install` from project root directory
 3. Run `$ npm start` to start the development server
 4. Run `$ npm test` or `$ npm t` to run the test suite
 5. Run `$ npm run storybook` to start the UI dev environment
+
 <details>
-   <summary>CLICK ME</summary>
-   <a href="https://asciinema.org/a/268503.svg")](https://asciinema.org/a/268503>
+   <summary>Clone Repo and NPM Install Example</summary>
+   <a href="https://asciinema.org/a/268503")](https://asciinema.org/a/268503>
+      <img src="https://asciinema.org/a/268503.svg"/>
+   </a>
+</details>
+
+<details>
+   <summary>`npm start example`</summary>
+   <a href="https://asciinema.org/a/268503")](https://asciinema.org/a/268503>
+      <img src="https://asciinema.org/a/268503.svg"/>
+   </a>
+</details>
+
+<details>
+   <summary>`npm test` example</summary>
+   <a href="https://asciinema.org/a/268503")](https://asciinema.org/a/268503>
+      <img src="https://asciinema.org/a/268503.svg"/>
+   </a>
+</details>
+
+<details>
+   <summary>`npm run storybook` example</summary>
+   <a href="https://asciinema.org/a/268503")](https://asciinema.org/a/268503>
       <img src="https://asciinema.org/a/268503.svg"/>
    </a>
 </details>
