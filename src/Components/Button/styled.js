@@ -1,16 +1,22 @@
-import styled, {css} from 'styled-components';
-const flexCenterCenter = css`display: flex; justify-content: center; align-items: center`;
+import styled, { css } from 'styled-components';
+const flexCenterCenter = css``;
 
 const StyledButton = styled.button`
-    ${flexCenterCenter}
+    display: flex;
+    justify-content: center;
+    align-items: center;
     cursor: pointer;
-    height: ${props => props.style.height || ''};
-    border: ${props => props.style.border || ''};
-    font-size: ${props => props.style.fontSize || ''};
     font-family: ${props => props.style.fontFamily || ''};
-    color: ${props => props.style.color || ''};
+    box-sizing: border-box;
+
+    height: ${props => props.size.height};
+    width: ${props => props.size.width};
+
+    border-width: ${props => props.style.borderWidth};
+    border-style: ${props => props.style.borderStyle};
+    border-color: ${props => props.style.borderColor};
+
     background-color: ${props => props.style.bgColor || ''};
-    box-sizing: ${props => props.style.boxSizing || ''};
     span {
         ${flexCenterCenter}
         padding: ${props => props.style.padding || ''};
