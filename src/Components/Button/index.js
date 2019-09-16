@@ -1,8 +1,6 @@
 import React from 'react';
 import StyledButton from './styled';
-import { generateButtonSize } from '../../utils/generateButtonSize';
-import { generateButtonColor } from '../../utils/generateButtonSize';
-import { generateButtonStyle } from '../../utils/generateButtonStyle';
+import { generateButtonColor, generateButtonSize, generateButtonStyle } from '../../utils/buttonGenerators';
 
 const Button = ({
     text,
