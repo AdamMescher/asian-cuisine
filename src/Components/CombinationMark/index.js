@@ -1,6 +1,7 @@
 import React from 'react';
 import Logo from '../Logo/index';
 import Wordmark from '../Wordmark/index';
+import StyledCombinatonMark from './styled';
 
 const xmlns = 'http://www.w3.org/2000/svg';
 const viewBox = '0 0 38.6 41.2';
