@@ -4,8 +4,8 @@ import { generateButtonColor, generateButtonSize, generateButtonStyle } from '..
 
 const Button = ({
     text,
-    size,
     color,
+    size,
     style }) => (
         <StyledButton
             size={generateButtonSize(size)}
@@ -14,5 +14,12 @@ const Button = ({
             <span>{text}</span>
         </StyledButton>
     );
+
+Button.propTypes = {
+    text: PropTypes.string,
+    color: PropTypes.object,
+    size: PropTypes.object,
+    style: PropTypes.object
+}
 
 export default Button;
