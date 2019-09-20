@@ -1,15 +1,16 @@
 import React from 'react';
 import { ThemeProvider } from 'styled-components';
+import StyledApp from './styled';
 import { theme } from '../../utils/theme';
 
-function App() {
+const App = () => {
   return (
     <ThemeProvider theme={theme}>
-      <main className="App">
+      <StyledApp>
         <section>
           <h1>IS THIS THING ON</h1>
         </section>
-      </main>
+      </StyledApp>
     </ThemeProvider>
   );
 }
