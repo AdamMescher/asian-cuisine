@@ -9,8 +9,8 @@ const Button = ({
     size,
     style }) => (
         <StyledButton
-            size={size}
             color={color}
+            size={size}
             style={style}>
             <span>{text}</span>
         </StyledButton>
