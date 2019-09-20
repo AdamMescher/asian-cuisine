@@ -4,8 +4,6 @@ Attempt to create an atomic design system with React and Storybook.
 
 Based on [the incredible work found on Dribbble](https://dribbble.com/shots/6840107-Landing-page-Asian-Cuisine) of [Outcrowd](https://outcrowd.io).
 
-[![Alt text]](https://cdn.dribbble.com/users/702789/videos/35236/motion2__1_.mp4)
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Getting Started
