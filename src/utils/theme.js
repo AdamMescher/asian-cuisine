@@ -1,6 +1,6 @@
 export const theme = {
     fontStack: {
-        sansSerifFontFamily: `'Lexend Deca', sans-serif'`,
+        sansSerifFontFamily: "'Lexend Deca', sans-serif",
         lineHeight: '1.45',
         bodyFontSize: '16px',
         h1FontSize: '3.052em',
