@@ -1,6 +1,5 @@
 import React from 'react';
-import {ThemeProvider } from 'styled-components';
-import CombinationMark from '../CombinationMark/styled';
+import { ThemeProvider } from 'styled-components';
 
 const theme = {
   fontStack: {
