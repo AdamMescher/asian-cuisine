@@ -1,35 +1,3 @@
-const buttonColorWireframe = {
-    borderColorOutline: '',
-    borderColorFill: '',
-    colorOutline: '',
-    colorFill: '',
-};
-
-const buttonColorOne = {};
-const buttonColorTwo = {};
-
-const outlineButtonStyle = {
-    borderWidth: '2px',
-    borderStyle: 'solid',
-    borderColor: `${buttonColorWireframe.colorOutline}`,
-    backgroundColor: ``
-};
-const fillButtonStyle = {
-    borderWidth: '0',
-    borderStyle: 'none',
-    borderColor: `${buttonColorWireframe.colorFill}`,
-    backgroundColor: ``
-};
-
-const smallButtonSize = {
-    height: '',
-    width: '',
-    fontSize: ''
-};
-const mediumButtonSize = {};
-const largeButtonSize = {};
-const extraLargeButtonSize = {};
-
 export const generateButtonColor = color => {
     switch (color) {
         case 'wf':
