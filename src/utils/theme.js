@@ -13,8 +13,6 @@ const theme = {
     colors: {
         primary: {
             one: '#58a701',
-            two: '',
-            three: ''
         },
         secondary: {
             one: '#623453',
@@ -23,7 +21,6 @@ const theme = {
         tertiary: {
             one: '#ffc511',
             two: '#ffde7f',
-            three: ''
         },
         quaternary: {
             one: '#fe7749'
@@ -33,14 +30,7 @@ const theme = {
             two: '#eeeffd',
             three: '#c7d4dc',
         },
-        darkNeutral: {
-            one: '',
-            two: '',
-            three: '',
-            four: '',
-            five: '',
-            six: ''
-        },
+        darkNeutral: {},
         lightNeutral: {
             one: '#fff3d2',
             two: '#fde7ad',
