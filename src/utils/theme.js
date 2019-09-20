@@ -1,4 +1,4 @@
-const theme = {
+export const theme = {
     fontStack: {
         sansSerifFontFamily: `'Lexend Deca', sans-serif'`,
         lineHeight: '1.45',
@@ -36,6 +36,30 @@ const theme = {
             two: '#fde7ad',
             three: '#ecf9ff',
             four: '#f7f9fb'
+        }
+    },
+    componentStyles: {
+        button: {
+            color: {
+                wireframe: {
+                    color: {
+                        fill: {
+                            color: '',
+                            borderColor: ''
+                        },
+                        outline: {
+                            color: '',
+                            borderColor: ''
+                        }
+                    }
+                }
+            },
+            size: {
+                small: {}
+            },
+            style: {
+                outline: {}
+            }
         }
     }
 };
