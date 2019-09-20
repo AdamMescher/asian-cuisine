@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types'
 import StyledButton from './styled';
 import { generateButtonColor, generateButtonSize, generateButtonStyle } from '../../utils/buttonGenerators';
 
