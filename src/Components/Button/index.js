@@ -9,9 +9,9 @@ const Button = ({
     size,
     style }) => (
         <StyledButton
-            size={generateButtonSize(size)}
-            color={generateButtonColor(color)}
-            style={generateButtonStyle(style)}>
+            size={size}
+            color={color}
+            style={style}>
             <span>{text}</span>
         </StyledButton>
     );
